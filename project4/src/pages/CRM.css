@@ -1,0 +1,14 @@
+.crm_wrapper {
+  padding-left: 100px;
+}
+
+.crm_wrapper_opened {
+  padding-left: 260px;
+}
+
+.crm_content {
+  max-width: calc(1440px - 3rem);
+  margin: 0 auto;
+  min-height: 100vh;
+  box-sizing: border-box;
+}

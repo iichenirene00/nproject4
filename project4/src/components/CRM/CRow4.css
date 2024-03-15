@@ -1,0 +1,152 @@
+.row44 {
+  display: flex;
+  padding-bottom: 50px;
+  .bg {
+    box-shadow: 2px 2px rgba(205, 202, 202, 0.954);
+    display: block;
+    height: 440px;
+    background-color: #fff;
+    margin: 24px 0 0 24px;
+    border-radius: 10px;
+  }
+  .r4left {
+    margin: 24px 0 0 0;
+    width: 566px;
+    .r4t {
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      padding: 1.5rem 1.5rem 0rem;
+      justify-content: space-between;
+      .ttitle {
+        font-size: 1.25rem;
+        line-height: 1.6;
+        font-weight: 500;
+        letter-spacing: 0.15px;
+      }
+    }
+  }
+  .r4right {
+    width: 802px;
+  }
+
+  .th {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    color: rgba(50, 71, 92, 0.87);
+    padding: 16px 16px 16px 24px;
+  }
+  .td2 {
+    padding: 8px 16px;
+  }
+  .tasks {
+    margin-left: 10px;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    color: rgba(50, 71, 92, 0.6);
+    font-weight: 500;
+  }
+  .tdw {
+    margin-left: 15px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: rgba(50, 71, 92, 0.6);
+    font-weight: 600;
+  }
+
+  .cimg {
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 50px;
+    height: 29px;
+  }
+  .more {
+    margin-left: 20px;
+  }
+  .donut {
+    width: 32px;
+    height: 32px;
+    margin-left: 40px;
+  }
+  .iimg {
+    margin-right: 0.75rem;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    object-fit: cover;
+    color: transparent;
+    text-indent: 10000px;
+  }
+  .td1 {
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+  }
+  .td {
+    border: 0px solid;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  .tp {
+    margin: 0px;
+    font-size: 1rem;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgba(50, 71, 92, 0.87);
+    font-weight: 500;
+  }
+  .tpp {
+    color: rgba(50, 71, 92, 0.38);
+  }
+  .nimg {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: "Public Sans", sans-serif, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    user-select: none;
+    color: rgb(255, 171, 0);
+    background-color: rgba(255, 171, 0, 0.16);
+    margin-right: 0.75rem;
+    width: 38px;
+    height: 38px;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .pproject {
+    border-radius: 4px;
+    max-width: 100%;
+    font-size: 0.8125rem;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    white-space: nowrap;
+    cursor: default;
+    outline: 0px;
+    text-decoration: none;
+    border: 0px;
+    padding: 0rem 0.625rem;
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: 24px;
+    font-weight: 500;
+  }
+
+  .nimg2 {
+    color: rgba(50, 71, 92, 0.6);
+    background-color: rgb(240, 239, 240);
+  }
+}

@@ -1,0 +1,132 @@
+.sidebar {
+  height: 100%;
+  background-color: #fff;
+  position: fixed;
+  left: 0;
+  z-index: 99;
+  top: 0;
+
+  .sidebar_top {
+    padding: 0 20px 0 32px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    .control {
+      position: absolute;
+      width: 36px;
+      height: 36px;
+      top: ;
+      right: -18px;
+      background-color: #f5f5f9;
+      padding: 7px;
+      box-sizing: border-box;
+      border-radius: 50%;
+      border: none;
+      .control_circle {
+        width: 22px;
+        border-radius: 50%;
+        height: 22px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(105, 108, 255);
+      }
+
+      .control_flip {
+        transform: rotate(180deg);
+        transition: transform 0.25s ease-in-out 0.35s;
+      }
+    }
+  }
+
+  .sidebar_bot {
+    padding-top: 0.25rem;
+    .buttons {
+      background-color: transparent;
+      box-sizing: border-box;
+      outline: 0px;
+      border: 0px;
+      margin: 0px 1rem;
+      cursor: pointer;
+      user-select: none;
+      vertical-align: middle;
+      appearance: none;
+      color: inherit;
+      display: flex;
+      -webkit-box-flex: 1;
+      flex-grow: 1;
+      -webkit-box-pack: start;
+      justify-content: flex-start;
+      -webkit-box-align: center;
+      align-items: center;
+      position: relative;
+      text-decoration: none;
+      min-width: 0px;
+      box-sizing: border-box;
+      text-align: left;
+      padding: 0.625rem 0.625rem 0.625rem 1rem;
+      border-radius: 6px;
+      transition: padding 0.25s ease-in-out 0s;
+      width: calc(100% - 2rem);
+      height: 44px;
+
+      .b_text {
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        color: rgba(50, 71, 92, 0.6);
+      }
+      .b_text1 {
+        color: rgb(105, 108, 255);
+      }
+    }
+    .b1 {
+      background-color: rgba(105, 108, 255, 0.16);
+    }
+
+    .bh {
+      &:hover {
+        background-color: rgba(185, 191, 196, 0.38);
+      }
+    }
+    .sub {
+      color: rgba(50, 71, 92, 0.38);
+      font-size: 12px;
+      &::before {
+        display: inline-block;
+        width: 20px;
+        content: "";
+        height: 0;
+        border-top: 1px solid rgba(50, 71, 92, 0.38);
+        background-color: #e1e1e1;
+        vertical-align: middle;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.noshow {
+  display: none;
+}
+
+.sin {
+  width: 260px;
+  transition: width 0.35s ease-in-out 0s;
+}
+
+.sout {
+  width: 82px;
+  transition: width 0.35s ease-in-out 0s;
+}
+
+.sub_close {
+  margin: 0 16px;
+  padding: 10px 10px 10px 16px;
+}
+
+.da {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,207 @@
+.second_row {
+  display: flex;
+  height: 388px;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+  box-sizing: border-box;
+
+  .row2 {
+    background-color: #fff;
+    box-shadow: 2px 2px rgba(205, 202, 202, 0.954);
+    box-sizing: border-box;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+
+    .left {
+      width: 613px;
+      height: 364px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      .left_top {
+        padding: 20px 24px 0;
+      }
+      .left_bot {
+        padding-left: 20px;
+        padding-bottom: 10px;
+      }
+    }
+
+    .right {
+      width: 306px;
+      padding: 2rem 1.5rem 1.875rem;
+      .year {
+        display: inline-flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        position: relative;
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+        background-color: transparent;
+        outline: 0px;
+        margin: 0px;
+        cursor: pointer;
+        user-select: none;
+        vertical-align: middle;
+        appearance: none;
+        text-decoration: none;
+        font-size: 0.8125rem;
+        text-transform: uppercase;
+        min-width: 64px;
+        transition: all 0.2s ease-in-out 0s;
+        border: 1px solid rgba(105, 108, 255, 0.5);
+        color: rgb(105, 108, 255);
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        border-radius: 4px;
+        padding: 0.1875rem 0.8125rem;
+      }
+    }
+  }
+
+  .r1 {
+    width: 920px;
+    display: flex;
+  }
+  .r2 {
+    width: 448px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .top {
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+
+    .tl,
+    .tr {
+      display: flex;
+      flex-direction: column;
+      width: 212px;
+    }
+
+    .tl {
+      padding: 20px 20px 16px;
+    }
+  }
+  .bot {
+    display: flex;
+    height: 160px;
+    padding: 16px 20px 13px;
+    justify-content: space-between;
+
+    .botl {
+      width: 120px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .botlt {
+        height: 64px;
+      }
+      .botlb {
+        height: 54px;
+      }
+
+      .year {
+        border-radius: 4px;
+        max-width: 100%;
+        font-family: "Public Sans", sans-serif, -apple-system,
+          BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+          sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 0.8125rem;
+        display: inline-flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        white-space: nowrap;
+        transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+          box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        cursor: default;
+        outline: 0px;
+        text-decoration: none;
+        border: 0px;
+        padding: 0px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        height: 28px;
+        color: rgb(255, 171, 0);
+        background-color: rgba(255, 171, 0, 0.16);
+        font-weight: 500;
+        padding: 0rem 0.625rem;
+      }
+    }
+    .pr_price {
+      font-size: 1.4993rem;
+      margin: 0;
+      font-weight: 500;
+    }
+
+    .bperct {
+      display: flex;
+      color: #71dd37;
+      font-size: 14px;
+      align-items: center;
+      margin: 0;
+    }
+
+    .botr {
+      width: 258px;
+    }
+  }
+}
+
+.word {
+  padding: 14px 20px 0;
+  .line_profit,
+  .line_title {
+    margin: 0;
+  }
+  .w_title {
+    margin: 0;
+    color: rgba(50, 71, 92, 0.6);
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+  .w_sales {
+    margin: 0;
+    font-size: 24px;
+    line-height: 1.334;
+    color: rgba(50, 71, 92, 0.87);
+  }
+  .percent {
+    color: #ff3e1d;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    margin: 0;
+    margin-top: 8px;
+  }
+}
+.wallet_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  .wallet {
+    width: 42px;
+    height: 42px;
+  }
+}
+
+.w1 {
+  padding: 0;
+}
+
+.revenue_t {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}

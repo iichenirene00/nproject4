@@ -1,0 +1,229 @@
+.sign {
+  display: flex;
+  height: 100vh;
+  .sleft {
+    padding: 3rem;
+    flex: 1 1 0%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    .spic {
+      width: 700px;
+      height: auto;
+      max-width: 100%;
+    }
+  }
+
+  .sright {
+    padding: 3rem;
+    max-width: 635px;
+    width: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .sright_info {
+    height: 653px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+  }
+  .logo {
+    margin-bottom: 2rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    .aicon {
+      color: rgb(105, 108, 255);
+      height: 28px;
+    }
+    .sname {
+      margin: 0px 0px 0px 0.5rem;
+      color: rgba(50, 71, 92, 0.87);
+      line-height: 1;
+      font-weight: 700;
+      letter-spacing: -0.45px;
+      text-transform: lowercase;
+      font-size: 1.75rem;
+    }
+  }
+  .welcome {
+    font-size: 20px;
+    margin: 0px 0px 0.375rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: rgba(50, 71, 92, 0.87);
+  }
+  .please {
+    margin: 0px 0px 1.5rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: rgba(50, 71, 92, 0.6);
+  }
+  .accountinfo {
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 6px;
+    box-shadow: none;
+    background-image: none;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem 16px;
+    margin-bottom: 1.5rem;
+    color: rgb(105, 108, 255);
+    background-color: rgba(105, 108, 255, 0.16);
+    .acw {
+      display: block;
+      margin: 0px 0px 0.5rem;
+      font-weight: 400;
+      font-size: 0.75rem;
+      line-height: 1.66;
+      color: rgb(105, 108, 255);
+    }
+  }
+  .all {
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 0px;
+    padding: 0px;
+    margin: 0px 0px 0.5rem;
+    border: 0px;
+    vertical-align: top;
+    width: 100%;
+    margin: 0px 0px 1rem;
+  }
+  .labels {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    padding: 0px;
+    display: block;
+    transform-origin: left top;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: calc(133% - 32px);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: translate(14px, -9px) scale(0.75);
+    z-index: 1;
+    pointer-events: auto;
+    user-select: none;
+    color: rgba(50, 71, 92, 0.6);
+  }
+  .ip {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    color: rgba(50, 71, 92, 0.87);
+    box-sizing: border-box;
+    cursor: text;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    border-radius: 6px;
+  }
+  .istyle {
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentcolor;
+    border: 1px solid rgba(105, 108, 255, 0.16);
+    border-radius: 5px;
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0px;
+    width: 100%;
+    animation-name: mui-auto-fill-cancel;
+    animation-duration: 10ms;
+    padding: 16.5px 14px;
+  }
+  .aline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    .rcheck {
+      display: flex;
+      align-items: center;
+      .check {
+        width: 18px;
+        height: 18px;
+        margin-right: 10px;
+      }
+      .remember {
+        font-size: 0.875rem;
+        color: rgba(50, 71, 92, 0.6);
+      }
+    }
+    .forgot {
+      font-size: 0.875rem;
+      text-decoration: none;
+      color: rgb(105, 108, 255);
+    }
+  }
+  .bsign {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0px;
+    border: 0px;
+    margin: 0px 0px 1rem;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-size: 0.9375rem;
+    text-transform: uppercase;
+    min-width: 64px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(105, 108, 255);
+    width: 100%;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    box-shadow: rgba(50, 71, 92, 0.42) 0px 4px 8px -4px;
+    border-radius: 8px;
+    padding: 0.5rem 1.625rem;
+  }
+  .na {
+    display: flex;
+    .new {
+      margin: 0px 0.5rem 0px 0px;
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 1.43;
+      color: rgba(50, 71, 92, 0.6);
+    }
+    .create {
+      background-color: transparent;
+      font-size: 0.875rem;
+      text-decoration: none;
+      color: rgb(105, 108, 255);
+      border: none;
+      cursor: pointer;
+    }
+  }
+}

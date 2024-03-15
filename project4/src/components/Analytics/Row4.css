@@ -1,0 +1,259 @@
+.fourth_row {
+  display: flex;
+  height: 524px;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+  box-sizing: border-box;
+  .row4 {
+    width: 684px;
+    height: 469px;
+    background-color: #fff;
+    box-shadow: 2px 2px rgba(205, 202, 202, 0.954);
+    box-sizing: border-box;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    .r4topp {
+      width: 684px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 80px;
+      padding: 24px;
+      box-sizing: border-box;
+      .order_title {
+        font-size: 1.25rem;
+        line-height: 1.6;
+        font-weight: 500;
+        letter-spacing: 0.15px;
+      }
+    }
+    .r4bott {
+      width: 684px;
+      height: 391px;
+      box-sizing: border-box;
+      padding: 0 24px 15px;
+      .bots {
+        display: flex;
+        .r4bottl {
+          display: flex;
+          flex-direction: column;
+          flex: 0 1 0%;
+          -webkit-box-align: center;
+          align-items: center;
+          .circle {
+            display: flex;
+            align-self: baseline;
+            border-style: solid;
+            border-width: 2px;
+            padding: 4px;
+            border-radius: 50%;
+            margin: 11.5px 0px;
+            border-color: transparent;
+            color: rgb(255, 255, 255);
+          }
+          .c1 {
+            background-color: rgb(105, 108, 255);
+            box-shadow: rgba(105, 108, 255, 0.16) 0px 0px 0px 4px;
+          }
+          .c2 {
+            background-color: rgb(255, 171, 0);
+            box-shadow: rgba(255, 171, 0, 0.16) 0px 0px 0px 4px;
+          }
+          .c3 {
+            background-color: rgb(3, 195, 236);
+            box-shadow: rgba(3, 195, 236, 0.16) 0px 0px 0px 4px;
+          }
+          .line {
+            width: 2px;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            background-color: rgba(50, 71, 92, 0.12);
+          }
+        }
+        .r4bottr {
+          display: flex;
+          justify-content: space-between;
+          margin-right: 0px;
+          margin-left: 0px;
+          font-weight: 400;
+          font-size: 1rem;
+          line-height: 1.5;
+          color: rgba(50, 71, 92, 0.87);
+          flex: 1 1 0%;
+          padding: 6px 16px;
+          text-align: left;
+          margin-top: 0rem;
+          margin-bottom: 1.5rem;
+          .bottrl {
+            .topic {
+              margin: 0px 0.5rem 0px 0px;
+              font-size: 1rem;
+              line-height: 1.5;
+              color: rgba(50, 71, 92, 0.87);
+              font-weight: 500;
+            }
+            .sub {
+              margin: 0px 0px 0.625rem;
+              font-weight: 400;
+              font-size: 1rem;
+              line-height: 1.5;
+              color: rgba(50, 71, 92, 0.6);
+            }
+            .pdf {
+              width: 24px;
+              aspect-ratio: auto 24 / 24;
+              height: 24px;
+            }
+            .img_sub {
+              margin: 0px 0px 0px 0.75rem;
+              font-size: 1rem;
+              line-height: 1.5;
+              color: rgba(50, 71, 92, 0.87);
+              font-weight: 500;
+            }
+            .c {
+              font-size: 1.25rem;
+              line-height: 1;
+              border-radius: 50%;
+              overflow: hidden;
+              user-select: none;
+              margin-right: 0.5625rem;
+              width: 38px;
+              height: 38px;
+            }
+          }
+          .time {
+            margin: 0px;
+            font-weight: 400;
+            font-size: 0.875rem;
+            line-height: 1.43;
+            color: rgba(50, 71, 92, 0.38);
+          }
+        }
+      }
+    }
+  }
+}
+.rbott {
+  display: flex;
+}
+
+.bot3 {
+  margin: 0 !important;
+}
+
+.ss {
+  margin-left: 0 !important;
+}
+.table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+.thead {
+  display: table-header-group;
+  text-transform: uppercase;
+}
+.th {
+  text-align: start;
+  padding: 26px 12px 22px 24px;
+  margin: 0px;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  color: rgba(50, 71, 92, 0.6);
+  font-weight: 500;
+}
+
+.trd {
+  color: inherit;
+  display: table-row;
+  vertical-align: middle;
+  outline: 0px;
+  .no {
+    padding: 13px 16px 13px 24px;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.25px;
+    color: rgba(50, 71, 92, 0.6);
+    .bar_wrapper {
+      display: flex;
+      .bar {
+        position: relative;
+        overflow: hidden;
+        display: block;
+        z-index: 0;
+        border-radius: 10px;
+        background-color: rgb(235, 238, 240);
+        margin-right: 1rem;
+        height: 9px;
+        width: 100%;
+        .barmid {
+          width: 100%;
+          position: absolute;
+          left: 0px;
+          bottom: 0px;
+          top: 0px;
+          transition: transform 0.4s linear 0s;
+          transform-origin: left center;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+  .imgw {
+    padding: 13px 16px 13px 24px;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.25px;
+    display: flex;
+  }
+  .img {
+    width: 24px;
+    aspect-ratio: auto 24 / 24;
+    height: 24px;
+  }
+  .imgp {
+    margin: 0px 0px 0px 0.75rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: rgba(50, 71, 92, 0.6);
+  }
+  .visit {
+    padding: 13px 16px 13px 24px;
+    margin: 0px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: rgba(50, 71, 92, 0.6);
+    font-weight: 600;
+  }
+}
+
+.t_wrapper {
+  box-sizing: border-box;
+  height: 100%;
+  .t1 {
+    display: flex;
+    padding: 20px;
+    height: 81px;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid rgba(50, 71, 92, 0.12);
+    .tbutton {
+      min-height: 40px;
+      padding: 10px 16px;
+      border-radius: 6px;
+      border: none;
+      height: 40px;
+      background-color: transparent;
+      color: rgba(50, 71, 92, 0.6);
+    }
+
+    .tbutton_selected {
+      color: rgb(255, 255, 255);
+      background-color: rgb(105, 108, 255);
+    }
+  }
+}
